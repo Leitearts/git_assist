@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelvin's Web Development Page</title>
+</head>
+<body>
+    <header>
+        <h1>Kelvin's Web Development Playground</h1>
+        <p>Hello, I’m Kelvin — a cybersecurity professional exploring the world of software engineering.</p>
+    </header>
+
+    <main>
+        <!-- Section 1: Lists -->
+        <section>
+            <h2>My Favorite Programming Languages</h2>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Go</li>
+            </ul>
+
+            <h2>Steps I’m Taking to Become a Stronger Developer</h2>
+            <ol>
+                <li>Sharpen HTML, CSS, and JavaScript skills</li>
+                <li>Build real-world projects</li>
+                <li>Learn modern frameworks like React</li>
+                <li>Integrate security best practices into every project</li>
+            </ol>
+        </section>
+
+        <!-- Section 2: Table -->
+        <section>
+            <h2>Kelvin’s Web Development Roadmap</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                        <th>Estimated Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML & CSS</td>
+                        <td>Beginner → Proficient</td>
+                        <td>1 month</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                        <td>3 months</td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td>Advanced Beginner</td>
+                        <td>4 months</td>
+                    </tr>
+                    <tr>
+                        <td>Secure Web Development</td>
+                        <td>Specialist</td>
+                        <td>Ongoing</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section 3: Media -->
+        <section>
+            <h2>Media That Inspires Me</h2>
+
+            <!-- Image -->
+            <h3>Web Development Diagram</h3>
+            <img
+                src="https://res.cloudinary.com/dhgjhspsp/image/upload/v1747557411/fullstack_sioshn.png"
+                alt="Full Stack Dev Diagram"
+                width="300"
+            >
+
+            <!-- Audio -->
+            <h3>Background Music While I Code</h3>
+            <audio controls>
+                <source
+                    src="https://cdn.pixabay.com/audio/2025/04/10/audio_917e0e468c.mp3"
+                    type="audio/mpeg"
+                >
+                Your browser does not support the audio element.
+            </audio>
+
+            <!-- Video -->
+            <h3>Web Development Roadmap Video</h3>
+            <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/Gc4Xh8u19NU?si=G2Mpb865iviK8DSY"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+            ></iframe>
+        </section>
+
+        <!-- Section 4: HTML5 Form -->
+        <section>
+            <h2>Contact Kelvin</h2>
+            <form action="/submit" method="post" autocomplete="on">
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Your full name" required minlength="3">
+
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                    <br><br>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Message Details</legend>
+
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required minlength="4" maxlength="50">
+
+                    <br><br>
+
+                    <label for="message">Your Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Write your message here..." required minlength="10"></textarea>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Preferences</legend>
+
+                    <label for="contact-method">Preferred Contact Method:</label>
+                    <select id="contact-method" name="contact-method" required>
+                        <option value="">Select an option</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+
+                    <br><br>
+
+                    <label>Subscribe to newsletter:</label>
+                    <input type="radio" name="newsletter" value="yes" required> Yes
+                    <input type="radio" name="newsletter" value="no"> No
+
+                </fieldset>
+
+                <br>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kelvin’s Web Playground</p>
+    </footer>
+</body>
+</html>
